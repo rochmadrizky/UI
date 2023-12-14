@@ -1,6 +1,6 @@
 <template>
   <div class="hero min-h-screen bg-gray-900">
-    <div class="hero-content flex-col lg:flex-row">
+    <div class="hero-content flex-wrap lg:flex-row">
       <img
         src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
         class="max-w-sm rounded-lg shadow-2xl"
@@ -26,6 +26,9 @@
           </form>
         </dialog>
       </div>
+
+      <Card />
+      <Stat />
     </div>
   </div>
 
