@@ -29,6 +29,7 @@
 
       <Card />
       <Stat />
+      <Search />
     </div>
   </div>
 
